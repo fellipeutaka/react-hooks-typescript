@@ -39,7 +39,7 @@ export default function UseReducer() {
         <div>
           <button
             onClick={() =>
-              dispatch({ type: CountActionKind.DECREASE, payload: 1 })
+              dispatch({ type: CountActionKind.DECREASE, payload: 2 })
             }
           >
             -
