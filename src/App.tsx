@@ -5,6 +5,7 @@ import UseReducer from "./components/UseReducer";
 import UseImperativeHandle from "./components/UseImperativeHandle";
 import UseLayoutEffect from "./components/UseLayoutEffect";
 import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <UseLayoutEffect /> */}
       {/* <UseRef /> */}
       {/* <UseImperativeHandle /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </>
   );
 }
