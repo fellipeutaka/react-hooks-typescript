@@ -3,6 +3,7 @@ import UseEffect from "./components/UseEffect";
 import UseRef from "./components/UseRef";
 import UseReducer from "./components/UseReducer";
 import UseImperativeHandle from "./components/UseImperativeHandle";
+import UseLayoutEffect from "./components/UseLayoutEffect";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
       {/* <UseReducer /> */}
-      <UseImperativeHandle />
+      {/* <UseImperativeHandle /> */}
+      <UseLayoutEffect />
     </>
   );
 }
