@@ -6,6 +6,7 @@ import UseImperativeHandle from "./components/UseImperativeHandle";
 import UseLayoutEffect from "./components/UseLayoutEffect";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
+import Memo from "./components/Memo";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <UseRef /> */}
       {/* <UseImperativeHandle /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <Memo />
     </>
   );
 }
