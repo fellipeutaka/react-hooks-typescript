@@ -7,6 +7,7 @@ import UseLayoutEffect from "./components/UseLayoutEffect";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
 import Memo from "./components/Memo";
+import Context from "./components/Context";
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       {/* <UseImperativeHandle /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Context />
     </>
   );
 }
